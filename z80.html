@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEDIA PEMBELAJARAN TPMM</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--feathericon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">
+        <span>SMKN</span> 69 <span>JAKARTA</span></a
+      >
+
+      <div class="navbar-nav">
+        <a href="index.html">Halaman</a>
+        <a href="materi.html">Materi</a>
+        <a href="tentangkami.html">Tentang Kami</a>
+        <a href="halamankami.html">Hubungi Kami</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--judul materi-->
+    <section class="prosesorr">
+      <div class="mtrg">
+        <p>MIKROPROSESOR Z80</p>
+      </div>
+    </section>
+    <div class="mtr3">
+      <p>
+        Dalam sebuah mikroprosesor terdiri dari bagian – bagian yang satu dengan
+        yang lain saling melengkapi dan mandukung dalam memproses serta
+        menerjemahkan berbagai macam instruksi yang diberikan kepadanya untuk
+        selanjutnya dikerjakan setiap menerima instruksi selanjutnya. Susunan
+        dari bagian – bagian tersebut dikenal sebagai rancang bangun dari sebuah
+        mikroprosesor tipe Z80 memiliki rancang bangun sebagai berikut :
+      </p>
+    </div>
+
+    <div class="mtrr">
+      <img src="img/AAAAAAAAAA (3).jpg" alt="" />
+      <p>Gambar Diagram Rancang Bangun</p>
+      <p>Mikroprosesor Z80</p>
+      <p>
+        Dari diagram rancang bangun mikrprosesor z80 di samping setiap bagian
+        akan dijelaskan sebagai berikut :
+      </p>
+    </div>
+    <div class="mtr4">
+      <p>ALU (Arithmatic Logic Unit)</p>
+    </div>
+    <section class="alu">
+      <div class="alu1">
+        <p>
+          ALU merupakan bagian yang berfungsi untuk memproses pengolahan
+          instruksi yang berhubungan dengan proses aritmatika dan logika. ALU
+          juga merupakan jantung dari CPU serta di dalamnya terdapat register A
+          yang berfungsi sebagai accumulator untuk menyimpan hasil akhir dari
+          proses – proses tersebut. Pada bagian ini terdiri dari register –
+          register yang dapat digunakan secara umum (general purpose register)
+          yang dapat diakses secara langsung dan register – register yang
+          digunakan secara khusus (spesial purpose register). Pada mikroprosesor
+          Z80 memiliki 22 buah register yang terdiri dari 3 grup.
+        </p>
+        <img src="img/alu.png" alt="" />
+      </div>
+    </section>
+    <div class="container">
+      <div class="card">
+        <img src="img/robot2.gif" alt="" />
+        <div class="conect">
+          <h1>Instruction register</h1>
+          <p>
+            Instruction register berfungsi untuk menerjemahkan kode – kode biner
+            tertentu yang masuk melalui data bus diubah menjadi instruksi –
+            instruksi yang dapat di mengerti dan dapat diolah pada unit pengolah
+            pusat (CPU), selanjutnya akan mengendalikan bagian – bagian terkait
+            yang terdapat dalam mikrprosesor Z80 misalnya addres bus, data bus,
+            control bus register – register dan lain – lain melalui CPU Control
+            Signal System.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/robot1.gif" alt="" />
+        <div class="conect">
+          <h1>CPU Control Signal System</h1>
+          <p>
+            CPU control signal system berfungsi untuk memberikan sinyal kendali
+            pada bagian – bagian yang terkait, sehingga seluruh kendali, baik
+            secara hardware maupun software dapat dikendalikan melalui control
+            signal system dengan cara memberikan suatu level sinyal logika untuk
+            dapat mengaktifkan bagian – bagian terkait. Misalnya saluran reset
+            diberikan logik 0 (diaktifkan), maka bagian control signal system
+            ini akan mereset isi register PC dan isinya akan disalurkan ke
+            saluran alamat, saluran data akan difungsikan sebagai masukan untuk
+            dapat menerima data instruksi dari perangkat memori. Sebaliknya,
+            jika ada instruksi yang berhubungan dengan alamat, maka isi PC akan
+            diset sesuai dengan instruksi kemudian akan disalurkan ke saluran
+            alamat dan dapat digunakan oleh instruksi selanjutnya.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/robot3.gif" alt="" />
+        <div class="conect">
+          <h1>Data bus control</h1>
+          <p>
+            CPU control signal system berfungsi untuk memberikan sinyal kendali
+            pada bagian – bagian yang terkait, sehingga seluruh kendali, baik
+            secara hardware maupun software dapat dikendalikan melalui control
+            signal system dengan cara memberikan suatu level sinyal logika untuk
+            dapat mengaktifkan bagian – bagian terkait. Misalnya saluran reset
+            diberikan logik 0 (diaktifkan), maka bagian control signal system
+            ini akan mereset isi register PC dan isinya akan disalurkan ke
+            saluran alamat, saluran data akan difungsikan sebagai masukan untuk
+            dapat menerima data instruksi dari perangkat memori. Sebaliknya,
+            jika ada instruksi yang berhubungan dengan alamat, maka isi PC akan
+            diset sesuai dengan instruksi kemudian akan disalurkan ke saluran
+            alamat dan dapat digunakan oleh instruksi selanjutnya.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="aluu">
+      <p>Addres Bus Control</p>
+    </div>
+    <section class="alu2">
+      <div class="alu3">
+        <p>
+          Pada bagian ini berfungsi untuk mengendalikan saluran – saluran alamat
+          sebanyak 16 bit unutk digunakan dalam pengelamatan perangkat –
+          perangkat memori, perangkat input / output dan sebagainya. konfigurasi
+          pin pada mikrprosesor Z80 chip mikroprosesor Z80 dikemas dalam
+          berbagai tipe, unutk tipe DIP 40 (dual in line packed) memiliki
+          konfigurasi pin seperti di bawah ini.
+        </p>
+        <img src="img/addres.png" alt="" />
+        <p>Fungsi masing – masing kelompok saluran sebagai berikut :</p>
+        <p>
+          a) Addres bus, terdiri dari 16 saluran yang diberikan notasi dari
+          A0-A15 yang merupakan saluran keluaran untuk pengelamatan memori
+          dengan kapasitas sebanyak 65536 bytes atau 64 kb
+        </p>
+        <p>
+          b) Data bus, terdiri dari 8 saluran yang diberikan notasi D0-D7,
+          berfungsi untuk saluran lalu lintas data maupun data instruksi dari
+          mikrprosesor dan sebaliknya
+        </p>
+        <p>
+          c) M1, merupakan saluran sinyal kontrol keluaran yang apabila
+          berlogika 0 menunjukkan bahwa siklus yang sedang berlangsung adalah
+          siklus pengambilan kode operasi dalam pelaksanaan suatu instruksi.
+        </p>
+      </div>
+    </section>
+
+    <!--tombol back-->
+    <div class="back">
+      <a href="c1-materi.html"><p>KEMBALI</p></a>
+    </div>
+
+    <!--Footerstart-->
+    <footer>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Materi</a>
+        <a href="#menu">Tentang kami</a>
+        <a href="#contact">Kontak Kami</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a href=""> Muhammad Fikri</a> %copy; 2023.</p>
+      </div>
+    </footer>
+    <!--footerend-->
+    <!--contact section end-->
+
+    <!--Javacript-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
